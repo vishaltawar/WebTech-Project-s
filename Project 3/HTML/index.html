@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 3</title>
+    <style>
+        #parent{
+            height: 700px;
+            width: 700px;
+            border: 2px solid;
+            background-color: rgb(7, 7, 57);
+            margin: 0 auto;
+            top: 500px;
+            border-radius: 5px;
+             }
+             #child{
+                position: relative;
+                height: 620px;
+                width: 400px;
+                border: 0.px solid;
+                background-color: rgba(52, 40, 40, 0.479);
+                border-radius: 5px;
+                box-shadow: 7px 10px 30px rgb(4, 4, 4);
+                margin: 0 auto;
+                top: 45px;
+                /*opacity: 0.7;*/
+                background: rgba(0, 0, 0, 0.3);           
+             }
+             #childBold{
+               color: black;
+               background-color: orange;
+               border-radius:2px;
+               padding: 3px 6px 3px 6px; 
+               font-size: 15px;
+               margin-left: 30px; 
+               position: relative;  
+               top:30px
+             }            
+
+             #child h2{
+                font-size: 30px;
+                color: white;
+                margin-top: 40px;
+                text-align: center;
+             }
+
+             #child h4{
+                font-size: 20px;
+                color: white;                           
+                text-align: center;
+             }
+
+             #child h5{
+                font-size: 23px;
+                color: white;                           
+                text-align: center;
+             }
+
+             #image{
+                position: relative;
+                height: 150px;
+                width: 150px;
+                border: 2px double;                
+                background-image: url(../Image/PHOTO\ \(Vishal\ Tawar\).jpeg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                border-radius: 50%;
+                top: 20px;
+                margin: 0 auto;
+                
+             }
+
+             .botton1{
+                line-height: 35px;
+                text-align: center;
+                width: 130px;
+                border: 2px solid aqua;
+                border-radius: 5px;
+                display: inline-block;
+                color: rgb(24, 24, 107);
+                font-size: 17px;
+                background-color: aqua;
+                margin-left: 65px;
+             }
+
+             .botton2{
+                line-height: 35px;
+                text-align: center;
+                width: 130px;
+                border: 2px solid aqua;
+                border-radius: 5px;
+                display: inline-block;
+                color: rgb(38, 241, 214);
+                font-size: 17px;                
+             }
+             #footer{
+               height: 150px;
+               width: 400px;
+               border: 1 px solid wheat;
+               background-color: black;
+               position: relative;
+               top: 20px;
+               border-radius: 5px;
+               /*opacity: 0.2;*/
+               background: rgba(0, 0, 0, 0.3); 
+             }
+             #footBold{
+            color: white;           
+             font-size: 15px;
+              margin-left: 10px;
+             }
+             ul{
+               height: 100px;
+               width: 360px;
+               margin: 0;
+               /*border: 2px solid red;*/
+             }
+             ul li{
+               position: relative;
+               line-height: 35px;
+               width: 100px;
+               border-radius: 5px;
+               
+               padding: 5px ;
+               top: 85x;
+               text-align: center;
+               color: white;
+              
+               display: inline-block;
+               margin-top: 5px;
+               border: 1px solid rgb(26, 22, 22);
+               font-size: 20px;
+             }
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div id="child">
+         <b id="childBold">PRO</b>
+            <div id="image"></div>
+            <h2>Vishal M. Tawar</h2>
+            <h4>India</h4>
+            <h5>Java Full Stack Devloper</h5>
+            <div class="botton1">Massage</div>
+            <div class="botton2">Following</div>
+            <div id="footer">
+               <b id="footBold">SKILLS</b>
+               <ul>
+                  <li>SQL</li>
+                  <li>Core Java</li>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Java Script</li>
+                  <li>Spring Boot</li>
+               </ul>
+
+            </div>
+        </div>
+       
+        
+    </div>
+    
+</body>
+</html>
