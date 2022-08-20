@@ -1,0 +1,163 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: black;
+}
+
+.top {
+    height: 9500px;
+    width: 2700px;
+    margin-left: 10%;
+    background-image: url(./Image/Missile\ 2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    padding: 200px;
+    display: flex;
+    border: black solid 2px;
+    position: relative;
+}
+
+.imgDiv {
+    height: 600px;
+    width: 600px;
+}
+
+.imgDiv img {
+    height: 400px;
+    width: 400px;
+    overflow: hidden;
+    margin-left: 100px;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    border-radius: 50%;
+
+}
+
+.imgDiv h2 {
+    margin-left: 120px;
+    font-size: 40px;
+}
+
+.imgDiv h4 {
+    margin-left: 220px;
+    font-size: 40px;
+}
+
+.imgDiv h3 {
+    margin-left: 90px;
+    font-size: 40px;
+
+}
+
+.name {
+    
+    font-size: 50px;
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 200px;
+}
+
+.name h4 {
+    margin-left: 800px;
+    font-size: 60px;
+}
+
+.para {
+    margin-top: 600px;
+    position: absolute;
+    margin-right: 50px;
+}
+
+#paraHedding {
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.para h1 {
+    font-size: 90px;
+    font-weight: bold;
+    text-align: left;
+    padding: 50px;
+    position: relative;
+}
+
+.para p {
+    font-size: 65px;
+    text-indent: 150px;
+    word-spacing: 10px;
+}
+
+#awards {
+    height: 100px;
+    position: absolute;
+    top: 78%;
+
+}
+
+#awards ul {
+    font-size: 60px;
+    padding: 50px;
+}
+
+#awards a {
+    color: blue;
+}
+
+#awards h1 {
+    font-size: 70px;
+    padding-bottom: 40px;
+    padding-bottom: 20px;
+
+}
+
+#bio {
+
+    position: absolute;
+    top: 85%;
+    height: 300px;
+
+}
+
+#bio h1 {
+    font-size: 70px;
+    padding-bottom: 40px;
+    color: black;
+    padding-bottom: 20px;
+
+}
+
+.colorHedding {
+    background-color: rgb(195, 206, 34);
+    width: 2800px
+}
+
+#bio ul {
+    font-size: 60px;
+    padding: 50px;
+}
+
+#internalImg {
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    right: 0px;
+}
+
+#wikipedia a {
+    position: absolute;
+    top: 95%;
+    font-size: 70px;
+    margin-left: 300px;
+    color: blue;
+}
+#end{
+    position: absolute;
+    bottom: 2%;
+    left: 25%;
+    font-size: 40px;
+}
