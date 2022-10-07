@@ -1,0 +1,29 @@
+table{
+    height: 200px;
+    width: 500px;
+    text-align: center;
+    border: 2px solid;
+    box-shadow: 8px 8px 8px;            
+    border-spacing: 0px;
+    margin: 100px auto;
+              
+}
+td{
+    border: 1px solid black;
+}
+
+thead{
+    text-align: left;
+    background-color: rgba(14, 14, 116, 0.756);
+    color: white;
+    
+  }
+  .white{
+    background-color: rgb(245, 238, 226);
+  }
+  .pink{
+    background-color: rgb(238, 53, 83);
+  }
+  .lightPink{
+    background-color: rgba(222, 148, 162, 0.728);
+  }
